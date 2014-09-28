@@ -5,7 +5,7 @@ using namespace std;
 
 class Simple{
 
-	char *str;
+	string str;
 
 public:
 
@@ -19,7 +19,8 @@ public:
 
 Simple :: Simple()
 {
-	strcpy(str,"Hello");
+	str="Hello, How are you";
+	//strcpy(str,"Hello");
 }
 
 void Simple :: display()
