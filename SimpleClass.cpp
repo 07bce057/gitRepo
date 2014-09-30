@@ -31,8 +31,9 @@ void Simple :: display()
 
 int main()
 {
-	Simple ob;
-	ob.display();
+	Simple *ob;
+	ob=new Simple();
+	ob->display();
 
 	return 0;
 }
