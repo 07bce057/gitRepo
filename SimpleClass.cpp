@@ -21,7 +21,7 @@ public:
 Simple :: Simple()
 {
 	str="Hello,How are you..!!";
-	i=10;
+	i=5;
 	//strcpy(str,"Hello");
 }
 
