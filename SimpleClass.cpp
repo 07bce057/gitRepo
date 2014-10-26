@@ -6,6 +6,7 @@ using namespace std;
 class Simple{
 
 	string str;
+	int i;
 
 public:
 
@@ -19,13 +20,14 @@ public:
 
 Simple :: Simple()
 {
-	str="Hello, How are you";
+	str="Hello,How are you..!!";
+	i=10;
 	//strcpy(str,"Hello");
 }
 
 void Simple :: display()
 {
-	cout<<str<<"\n";
+	cout<<str<<":"<<i<<"\n";
 }
 
 
